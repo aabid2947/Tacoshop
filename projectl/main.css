@@ -1,0 +1,68 @@
+
+body{
+    background-color: #000;
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+h1{
+    color: #362f2f;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+h2,h3{
+    color: blueviolet;
+}
+figure{
+    width: 100%;
+   text-align: center;
+}
+img{
+    border: 1.9px solid rgb(244, 104, 127);
+}
+figcaption{
+    color: aqua;
+    display: flex;
+    place-content: center;
+}
+strong{
+    color: red;
+}
+legend{
+    color: aqua;
+}
+p{
+    color: aqua;
+}
+aside{
+    color: aqua;
+}
+a{
+    color: aqua;
+}
+a :visited{
+    color: lightgray;
+}
+a:hover, a:active{
+    opacity: 0.8;
+}
+
+table, tr, th, td, caption {
+    color: aqua;
+    border: 2px solid #362f2f;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+ul{
+    color: blue;
+}
+.time{
+    color: aqua;
+}
+address{
+    color: aqua;
+}
